@@ -1,0 +1,20 @@
+sudo: required
+dist: trusty
+
+language: c
+
+compiler:
+  - gcc
+
+os:
+  - linux
+
+install: true
+script: ./build.sh
+
+notifications:
+  email:
+    - 1045837697@qq.com
+
+# cppcheck
+# valgrind
